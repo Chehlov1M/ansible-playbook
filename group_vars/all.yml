@@ -1,0 +1,4 @@
+---
+vector_clickhouse_host: "{{ hostvars['clickhouse']['ansible_host'] }}"
+vector_clickhouse_database: "logs"
+lighthouse_nginx_port: 80
